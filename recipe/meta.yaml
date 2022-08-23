@@ -1,4 +1,4 @@
-{% set version = '1.0.7' %}
+{% set version = "1.0.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/faraway_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/faraway/faraway_{{ version }}.tar.gz
-  sha256: 06bbccf3f458c9a451a7a7ea928f53c07fb25ae34cdf4956fb64e5e445715451
+  sha256: e42b380054908aa280cebcaff9e3c099a11ae3f26fc278b424274f76dbb89570
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -41,10 +41,7 @@ test:
 about:
   home: http://people.bath.ac.uk/jjf23/
   license: GPL-2.0-or-later
-  summary: Books are "Practical Regression and ANOVA in R" on CRAN, "Linear Models with R" published
-    1st Ed. August 2004, 2nd Ed. July 2014 by CRC press, ISBN 9781439887332, and "Extending
-    the Linear Model with R" published by CRC press in 1st Ed. December 2005 and 2nd
-    Ed. March 2016, ISBN 9781584884248.
+  summary: Books are "Practical Regression and ANOVA in R" on CRAN, "Linear Models with R" published 1st Ed. August 2004, 2nd Ed. July 2014 by CRC press, ISBN 9781439887332, and "Extending the Linear Model with R" published by CRC press in 1st Ed. December 2005 and 2nd Ed. March 2016, ISBN 9781584884248.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
