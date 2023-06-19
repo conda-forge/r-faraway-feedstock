@@ -1,11 +1,11 @@
-About r-faraway
-===============
+About r-faraway-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-faraway-feedstock/blob/main/LICENSE.txt)
 
 Home: http://people.bath.ac.uk/jjf23/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-faraway-feedstock/blob/main/LICENSE.txt)
 
 Summary: Books are "Practical Regression and ANOVA in R" on CRAN, "Linear Models with R" published 1st Ed. August 2004, 2nd Ed. July 2014 by CRC press, ISBN 9781439887332, and "Extending the Linear Model with R" published by CRC press in 1st Ed. December 2005 and 2nd Ed. March 2016, ISBN 9781584884248.
 
