@@ -1,6 +1,5 @@
 {% set version = "1.0.8" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-faraway
@@ -13,8 +12,7 @@ source:
   sha256: e42b380054908aa280cebcaff9e3c099a11ae3f26fc278b424274f76dbb89570
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
