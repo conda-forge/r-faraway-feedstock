@@ -1,4 +1,4 @@
-{% set version = "1.0.8" %}
+{% set version = "1.0.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/faraway_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/faraway/faraway_{{ version }}.tar.gz
-  sha256: e42b380054908aa280cebcaff9e3c099a11ae3f26fc278b424274f76dbb89570
+  sha256: 1074ed85a0cf018fc2fd3e2a48bed666b2fa06b8461b7a3820aeb67b34a52d5d
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
